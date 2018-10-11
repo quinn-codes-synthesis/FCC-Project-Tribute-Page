@@ -1,0 +1,73 @@
+html, body {
+  background-color: darkgrey;
+  color: ;
+  text-align: center;
+  line-height: 20px;
+  /*Once you're done, submit the URL to your working project with all its tests passing.*/
+}
+
+.lefty {
+  text-align: left;
+}
+
+#main {
+  /*"My tribute page should have an element with a corresponding id="main", which contains all other elements." -- but the challenge for the 'main' html tag says it is used for the main content of the page, so don't confuse the two! */
+}
+
+
+#title {
+  font-size: 30vmin;
+  font-family: Iceland, serif;
+  padding: .3em 0 .5em 0;
+  /*I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").*/
+}
+
+
+#img-div {
+  margin: auto;
+  max-width: 1000px;
+  border-color: grey;
+  border-width: 2px;
+  border-style: solid;
+  /*I should see a div element with a corresponding id="img-div"*/
+}
+
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  /*Within the img-div element, I should see an img element with a corresponding id="image". The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.*/
+}
+
+
+#img-caption {
+  display: block;
+  padding: .15em;
+  /*Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div*/
+}
+
+#tribute-info {
+  margin: 40px;
+    /*I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.*/
+}
+
+#tribute-quote {
+  padding: 3% 5% 1% 5%;
+  margin: 40px;
+  font-family: Iceland, serif;
+  font-size: 30px;
+  width: 90%;
+  border-color: grey;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 15px -10px 20px rgba(0,0,0,0.19)
+}
+
+
+#tribute-link {
+  /*I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").*/
+}
