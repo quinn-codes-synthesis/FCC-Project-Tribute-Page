@@ -3,7 +3,6 @@ html, body {
   color: ;
   text-align: center;
   line-height: 20px;
-  /*Once you're done, submit the URL to your working project with all its tests passing.*/
 }
 
 .lefty {
@@ -19,7 +18,8 @@ html, body {
   font-size: 30vmin;
   font-family: Iceland, serif;
   padding: .3em 0 .5em 0;
-  /*I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").*/
+  width: 80%;
+  display: inline-block;
 }
 
 
@@ -29,7 +29,6 @@ html, body {
   border-color: grey;
   border-width: 2px;
   border-style: solid;
-  /*I should see a div element with a corresponding id="img-div"*/
 }
 
 
@@ -38,27 +37,27 @@ html, body {
   display: block;
   height: auto;
   margin: auto;
-  /*Within the img-div element, I should see an img element with a corresponding id="image". The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.*/
 }
 
 
 #img-caption {
   display: block;
   padding: .15em;
-  /*Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div*/
 }
 
 #tribute-info {
   margin: 40px;
-    /*I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.*/
+  width: 75%;
+  display: inline-block;
 }
 
 #tribute-quote {
-  padding: 3% 5% 1% 5%;
-  margin: 40px;
+  display: inline-block;
+  padding: 2.5% 5% 1% 5%;
+  margin: 20px;
   font-family: Iceland, serif;
   font-size: 30px;
-  width: 90%;
+  width: 70%;
   border-color: grey;
   border-width: 3px;
   border-style: solid;
@@ -69,5 +68,5 @@ html, body {
 
 
 #tribute-link {
-  /*I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").*/
+  /* ¯\_(ツ)_/¯ */
 }
